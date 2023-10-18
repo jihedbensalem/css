@@ -1,0 +1,120 @@
+* {
+  margin: center ;
+  padding: auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c99999;
+  color: #333;
+  line-height: 1.6;
+  margin: center;
+  padding: auto;
+}
+.Navbar {
+  background-color: #333;
+  color: #353333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 25;
+ 
+}
+.ulist {
+  list-style: none;
+  display: flex;
+}
+.ulist li {
+  margin-right: 20px;  
+}
+.search-bar {
+  position: absolute; 
+  top: 10px; 
+  right: 20px; 
+  width: 20%;    
+}
+#sb {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#btn {
+  width: 60px ;
+  padding: 6px;
+}
+.ulist a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+.ulist li a:hover {
+  color: #00f; 
+}
+section {
+  padding: 40px;
+}
+
+section h1, section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+section#work ul {
+  list-style: none;
+}
+
+section#work li {
+  margin-bottom: 10px;
+}
+
+section#work a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+section#resume a {
+  text-decoration: none;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+section#contact form {
+  margin-top: 20px;
+}
+
+section#contact label {
+  display: block;
+  margin-top: 10px;
+}
+
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section#contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  font-family: italic; 
+}
